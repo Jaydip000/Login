@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(135deg, #E0F7FA, #f3e5f5);
+}
+
+.Illustraion-container {
+    background-image: url(IMG/ILLUSTRAION.PNG);
+    width: 1000px;
+    height: 700px;
+    margin: auto;
+    border-radius: 50px;
+    box-shadow: -20PX 0 20PX rgba(0, 0, 0, 0.2); 
+}
+
+.Login-Container {
+    background-color: #E3F2FD;
+    margin: 50PX auto;
+    width: 500px;
+    height: 700px;
+    margin-left: 500px;
+    border-radius: 30px;
+    box-shadow: -10px 0 15px rgba(0, 0, 0, 0.2);
+    position: relative; 
+}
+
+.Heading-from {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.Heading-from h2 {
+    color: #EC407A;
+}
+
+#Username {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: left;
+    padding: 0px 0px 0px 50px;
+    width: 300px;
+    height: 40px;
+    background-image: url(IMG/icons/username.PNG);
+    background-size: 50px 50px;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+
+.Username-form {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#Password {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: left;
+    padding: 0px 0px 0px 50px;
+    width: 300px;
+    height: 40px;
+    background-image: url(IMG/icons/Password.PNG);
+    background-size: 50px 50px;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.Password-form {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.Email-form {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#Email {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: left;
+    padding: 0px 0px 0px 50px;
+    width: 300px;
+    height: 40px;
+    background-image: url(IMG/icons/email.PNG);
+    background-size: 50px 50px;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+button
+{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+    height: 40px;
+    cursor: pointer;
+    background-color: blue;
+    color: #E3F2FD;
+    position: relative;
+}
+
+.Login-Button {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+button:hover {
+    transition: 200ms ease-in-out;
+    background-color: #EC407A;
+    position: relative;
+    width: 400px;
+    height: 50px;
+}
