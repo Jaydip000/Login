@@ -34,18 +34,36 @@ body {
     color: #EC407A;
 }
 
+.Heading-from h2:hover
+{
+color: black;
+}
+
+.Heading-from p
+{
+text-decoration: none;
+font-size: large;
+position: relative;
+}
+
+.Heading-from p:hover
+{
+    font-size: larger;
+}
+
 #Username {
     padding: 10px;
     border: 1px solid black;
     border-radius: 10px;
     text-align: left;
     padding: 0px 0px 0px 50px;
-    width: 300px;
-    height: 40px;
+    width: 310px;
+    height: 60px;
     background-image: url(IMG/icons/username.PNG);
     background-size: 50px 50px;
     background-position: left center;
     background-repeat: no-repeat;
+    transition: 0.1s ease-in-out;
 }
 
 
@@ -61,12 +79,13 @@ body {
     border-radius: 10px;
     text-align: left;
     padding: 0px 0px 0px 50px;
-    width: 300px;
-    height: 40px;
+    width: 310px;
+    height: 60px;
     background-image: url(IMG/icons/Password.PNG);
     background-size: 50px 50px;
     background-position: left center;
     background-repeat: no-repeat;
+    transition: 0.1s ease-in-out;
 }
 
 .Password-form {
@@ -87,12 +106,13 @@ body {
     border-radius: 10px;
     text-align: left;
     padding: 0px 0px 0px 50px;
-    width: 300px;
-    height: 40px;
+    width: 310px;
+    height: 60px;
     background-image: url(IMG/icons/email.PNG);
     background-size: 50px 50px;
     background-position: left center;
     background-repeat: no-repeat;
+    transition: 0.1s ease-in-out;
 }
 
 button
@@ -116,9 +136,12 @@ button
 }
 
 button:hover {
-    transition: 200ms ease-in-out;
+    transition: 0.1s ease-in-out;
     background-color: #EC407A;
     position: relative;
-    width: 400px;
-    height: 50px;
+    width: 330px;
+}
+#Username:hover,#Password:hover,#Email:hover
+{
+width: 300px;
 }
